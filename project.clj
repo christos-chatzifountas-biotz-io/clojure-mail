@@ -5,7 +5,8 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [org.jsoup/jsoup "1.13.1"] ;; for cleaning up messy html messages
-                 [com.sun.mail/jakarta.mail "1.6.5"]
+                 [jakarta.mail/jakarta.mail-api "2.1.3"]
+                 [org.eclipse.angus/angus-mail "2.0.3"]
                  [medley "1.3.0"]]
   :deploy-repositories [["releases" {:url "https://clojars.org/repo"
                                      :creds :gpg}]]
